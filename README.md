@@ -25,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-<img src="https://raw.githubusercontent.com/mikechristopher/100daysofcode/refs/heads/gh-pages/_images/FEM-Blog-Preview-Card.png" alt="Front End Mentor Blod Preview Card" height="500"/>
+<img src="https://raw.githubusercontent.com/mikechristopher/100daysofcode/refs/heads/gh-pages/_images/FEM-Blog-Preview-Card.png" alt="Front End Mentor Blog Preview Card" height="500"/>
 
 ### Links
 
 - Solution URL: [Github Repo](https://github.com/mikechristopher/FEM-BPC)
-- Live Site URL: [No Live Site Currently](https://your-live-site-url.com)
+- Live Site URL: [Github Pages - BPC](https://mikechristopher.github.io/FEM-BPC/)
 
 ## My process
 
