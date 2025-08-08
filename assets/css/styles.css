@@ -1,0 +1,83 @@
+:root {
+    --color-yellow: rgb(244, 208, 78);
+    --color-white: rgb(255, 255, 255);
+    --color-gray-500: rgb(107, 107, 107);
+    --color-gray-950: rgb(17, 17, 17);
+}
+
+body {
+    background-color: var(--color-yellow);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Figtree', sans-serif;
+    line-height: 150%;
+}
+
+p {
+    font-size: 16px;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    filter: drop-shadow(8px 8px 0px rgb(0, 0, 0));
+    padding: 24px;
+    gap: 24px;
+    width: 384px;
+    box-sizing: border-box;
+    display: grid;
+}
+
+figure {
+    margin: 0;
+    display: flex;
+}
+
+.card_image {
+    border-radius: 10px;
+}
+
+.tags {
+    padding: 4px 12px;
+    color: var(--color-gray-950);
+    background-color: var(--color-yellow);
+    display: inline-block;
+    font-weight: 800;
+    font-size: 14px;
+    border-radius: 4px;
+    margin: 0;
+}
+
+.date {
+    font-size: 14px;
+    color: var(--color-gray-950);
+}
+
+.title:hover,
+.title:active {
+    color: var(--color-yellow);
+    cursor: pointer;
+}
+
+.description {
+    color: var(--color-gray-500);
+}
+
+.author {
+    color: var(--color-gray-950);
+    font-weight: 800;
+    font-size: 14px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 12px;
+}
+
+.author_image {
+    width: 32px;
+    height: 32px;
+}
